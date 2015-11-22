@@ -25,11 +25,6 @@ checkout:
     - git submodule sync
     - git submodule update --init # use submodules
 
-## Customize test commands
-test:
-  override:
-    - phpunit test/unit-tests # use PHPunit for testing
-
 ## Customize deployment commands
 deployment:
   staging:
