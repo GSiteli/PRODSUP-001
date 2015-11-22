@@ -24,10 +24,3 @@ checkout:
   post:
     - git submodule sync
     - git submodule update --init # use submodules
-
-## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: foo-bar-123
